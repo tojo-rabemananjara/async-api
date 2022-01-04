@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1 class="header">
+            Practice Using API with Pagination + Asynchronous Processing of Pages
+        </h1>
+        <section class="user-input">
+            <form action="">
+                <label for="min-page">Enter page start</label>
+                <input type="number" name="min-page" id="min-page" value="0">
+                <br>
+                <label for="max-page">Enter page end</label>
+                <input type="number" id="max-page" name="max-page" value="9">
+                <br>
+                <label for="results-per-page">Results Per Page</label>
+                <input type="number" id="results-per-page" name="results-per-page" value="10">
+                <button id="submit-btn">Show Results</button>
+            </form>
+        </section>
+
+        <section class="content">
+            <div id="loading-gif-wrapper">
+
+            </div>
+            <div id="passengers-wrapper">
+
+            </div>
+        </section>
+
+
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+    <script src="./scriptNoJquery.js"></script>
+    </body>
+</html>
